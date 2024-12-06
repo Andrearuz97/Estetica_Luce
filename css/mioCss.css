@@ -1,0 +1,48 @@
+.section-page-title-contattaci{
+background-image: url(/images/MarziaClinic3.png);
+background-size:center;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.section-page-title-chiSiamo{
+  background-image: url(/images/MarziaClinic3.png); 
+  background-size: center;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.contact-list a {
+    color: inherit;
+    text-decoration: none; 
+    transition: color 0.3s ease; 
+  }
+  
+  .contact-list a:hover {
+    color: #007bff;
+  }
+  .breadcrumbs-custom-path a {
+    color: #151515!important; /* Nero di default */
+    text-decoration: none; /* Nessuna sottolineatura */
+    transition: color 0.3s ease;
+  }
+  
+  .breadcrumbs-custom-path a:hover {
+    color: #007bff !important; /* Azzurro all'hover */
+  }
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Altezza minima del contenitore principale */
+}
+
+footer {
+    margin-top: auto; /* Spinge il footer in basso */
+}
