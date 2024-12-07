@@ -1,3 +1,12 @@
+.rd-navbar-panel{
+  background-color: #edf1f1 !important;
+}
+.rd-navbar-main-outer{
+  background-color: #edf1f1;
+}
+.page-title{
+  margin-block: 5rem;
+}
 .section-page-title-contattaci{
 background-image: url(/images/MarziaClinic3.png);
 background-size:center;
@@ -19,18 +28,23 @@ background-position: center;
     transition: color 0.3s ease; 
   }
   
-  .contact-list a:hover {
-    color: #007bff;
-  }
+ 
+  
   .breadcrumbs-custom-path a {
     color: #151515!important; /* Nero di default */
     text-decoration: none; /* Nessuna sottolineatura */
     transition: color 0.3s ease;
   }
-  
-  .breadcrumbs-custom-path a:hover {
-    color: #007bff !important; /* Azzurro all'hover */
+  .contact-list li{
+    :hover{
+      color: #7e0505;
+    }
+    :active{
+    color: #7e0505;
+    }
   }
+  
+  
   html, body {
     height: 100%;
     margin: 0;
@@ -55,6 +69,9 @@ color:#9b9b9b;
 font-size: 1.5rem;
 padding-inline:0.5rem;
 :hover{
-color:#b4e5db;
+color:#7e0505;
+}
+:active{
+  color: #7e0505;
 }
 }

@@ -4422,7 +4422,7 @@ textarea.form-input {
 	left: 0;
 	width: 0;
 	height: 2px;
-	background: #cef1ea;
+	background: #7e0505;
 	transition: all .3s;
 }
 
@@ -6457,7 +6457,7 @@ html.tablet .ui-to-top {
 }
 
 .rd-navbar-static .rd-nav-item.active > .rd-navbar-submenu-toggle {
-	color: #cef1ea;
+	color:#7e0505;
 }
 
 .rd-navbar-static .rd-nav-item.focus > .rd-navbar-submenu-toggle::before,
@@ -6512,7 +6512,7 @@ html.tablet .ui-to-top {
 	left: 0;
 	width: 0;
 	height: 2px;
-	background: #cef1ea;
+	background: #7e0505;
 	transition: all .3s;
 }
 
