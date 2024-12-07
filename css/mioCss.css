@@ -46,3 +46,15 @@ background-position: center;
 footer {
     margin-top: auto; /* Spinge il footer in basso */
 }
+.contact-list i{
+  padding-right:0.5rem;
+  font-size: 1.3em;
+}
+.social-icons a {
+color:#9b9b9b;
+font-size: 1.5rem;
+padding-inline:0.5rem;
+:hover{
+color:#b4e5db;
+}
+}

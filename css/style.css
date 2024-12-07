@@ -2030,9 +2030,11 @@ p + .list-marked {
 	border-bottom: 1px solid #e7e7e7;
 }
 
+/*
 .contact-list > li:last-child {
 	border-bottom: none;
 }
+	*/
 
 .contact-list .contact-list-title {
 	font-family: "Playfair Display", "Times New Roman", Times, serif;
